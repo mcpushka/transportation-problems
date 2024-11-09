@@ -14,21 +14,21 @@ public class TransportationProblemSolver {
         };
 
         // // Define supply and demand (Example 2)
-        // int[] supply = {160, 140, 170};
-        // int[] demand = {120, 50, 190, 110};
+        // int[] supply = {300, 400, 500};
+        // int[] demand = {250, 350, 400, 200};
         
         // // Define cost matrix (Example 2)
         // int[][] cost = {
-        //     {7, 8, 1, 2},
-        //     {4, 5, 9, 8},
-        //     {9, 2, 3, 6}
+        //     {3, 1, 7, 4},
+        //     {2, 6, 5, 9},
+        //     {8, 3, 3, 2}
         // };
 
-        // Define supply and demand (Example 3)
+        // // Define supply and demand (Example 3)
         // int[] supply = {40, 180, 160};
         // int[] demand = {60, 70, 130, 130};
         
-        // Define cost matrix (Example 3)
+        // // Define cost matrix (Example 3)
         // int[][] cost = {
         //     {6, 5, 3, 2},
         //     {8, 4, 2, 1},
@@ -193,16 +193,8 @@ public class TransportationProblemSolver {
         }
         
         return solution;
+
     }
-    
-
-
-
-
-
-
-
-    
     private static int[][] russellsApproximationMethod(int[] supply, int[] demand, int[][] cost) {
         int m = supply.length;
         int n = demand.length;
